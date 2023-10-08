@@ -1,8 +1,0 @@
-C:\Users\ASUS\source\repos\lab11\lab11\bin\Debug\lab11.exe.config
-C:\Users\ASUS\source\repos\lab11\lab11\bin\Debug\lab11.exe
-C:\Users\ASUS\source\repos\lab11\lab11\bin\Debug\lab11.pdb
-C:\Users\ASUS\source\repos\lab11\lab11\obj\Debug\lab11.csproj.AssemblyReference.cache
-C:\Users\ASUS\source\repos\lab11\lab11\obj\Debug\lab11.csproj.SuggestedBindingRedirects.cache
-C:\Users\ASUS\source\repos\lab11\lab11\obj\Debug\lab11.csproj.CoreCompileInputs.cache
-C:\Users\ASUS\source\repos\lab11\lab11\obj\Debug\lab11.exe
-C:\Users\ASUS\source\repos\lab11\lab11\obj\Debug\lab11.pdb
