@@ -1,0 +1,8 @@
+C:\Users\ASUS\source\repos\mkrt\mkrt\bin\Debug\mkrt.exe.config
+C:\Users\ASUS\source\repos\mkrt\mkrt\bin\Debug\mkrt.exe
+C:\Users\ASUS\source\repos\mkrt\mkrt\bin\Debug\mkrt.pdb
+C:\Users\ASUS\source\repos\mkrt\mkrt\obj\Debug\mkrt.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\mkrt\mkrt\obj\Debug\mkrt.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\source\repos\mkrt\mkrt\obj\Debug\mkrt.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\mkrt\mkrt\obj\Debug\mkrt.exe
+C:\Users\ASUS\source\repos\mkrt\mkrt\obj\Debug\mkrt.pdb
