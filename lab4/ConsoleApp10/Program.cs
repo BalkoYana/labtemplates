@@ -46,9 +46,8 @@ namespace ConsoleApp10
             system.SetAuthorization(externalServer);
             break;
         default:
-            Console.WriteLine("Невідомий вибір. Буде використано логін та пароль за замовчуванням.");
-            system.SetAuthorization(loginPassword);
-            break;
+                    Console.WriteLine("Помилка");
+                    break;
     }
 
     system.Authorize();
