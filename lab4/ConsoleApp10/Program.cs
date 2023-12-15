@@ -21,19 +21,38 @@ namespace ConsoleApp10
     internal class Program
     {
         static void Main(string[] args)
-        {
+{
+    System system = new System();
+    Authorization loginPassword = new LoginAndPassword();
+    Authorization smsCode = new Sms();
+    Authorization externalServer = new Server();
 
-            System system = new System();
-            Authorization loginPassword = new LoginAndPassword();
-            Authorization smsCode = new Sms();
-            Authorization externalServer = new Server();
+    Console.WriteLine("Виберіть спосіб авторизації:");
+    Console.WriteLine("1. Логін та пароль");
+    Console.WriteLine("2. SMS");
+    Console.WriteLine("3. Зовнішній сервер");
 
+    string choice = Console.ReadLine();
+
+    switch (choice)
+    {
+        case "1":
             system.SetAuthorization(loginPassword);
-            system.Authorize();
+            break;
+        case "2":
             system.SetAuthorization(smsCode);
-            system.Authorize();
+            break;
+        case "3":
             system.SetAuthorization(externalServer);
-            system.Authorize();
-        }
+            break;
+        default:
+            Console.WriteLine("Невідомий вибір. Буде використано логін та пароль за замовчуванням.");
+            system.SetAuthorization(loginPassword);
+            break;
+    }
+
+    system.Authorize();
+}
+
     }
 }
